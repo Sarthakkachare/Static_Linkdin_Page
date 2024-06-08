@@ -1,0 +1,23 @@
+
+.bottomleft{
+    grid-area: bottomleft;
+    background-color:white;
+    border-radius: 10px;
+    border:solid #666666 1px;
+    margin-left:50px;
+    /* height: 400px; */
+    margin-top:20px ;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.main_recent{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+.recent{
+    margin-top: 10px;
+}
+

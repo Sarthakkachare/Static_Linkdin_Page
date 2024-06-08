@@ -1,0 +1,32 @@
+
+.midright{
+    grid-area: midright;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border:solid #666666 1px;
+    padding: 5px 10px;
+}
+.min_div1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo_name{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.right_image{
+    height: 30px;
+    width: 30px;
+    padding-right:5px ;
+}
+button{
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: white;
+}

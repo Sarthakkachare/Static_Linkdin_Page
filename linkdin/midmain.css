@@ -1,0 +1,63 @@
+.midmain{
+    grid-area: midmain;
+    background-color: white;
+    border-radius: 10px;
+    /* border:solid #666666 1px; */
+    margin:20px;
+    /* height: 400px; */
+    margin-top:20px ;
+    padding: 10px;
+}
+.myantra_image{
+    height: 70px;
+    width: 60px;
+    background-image: url("http://127.0.0.1:5501/public/myntra.jpg");
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mid_main1{
+    display: flex;
+   
+}
+.midmain2{
+    display: flex;
+    justify-content: space-between;
+    width: 52vw;
+       
+}
+.myantra_channel{
+    padding-left: 10px;
+    
+}
+.post_image{
+   margin-top: 20px;
+    height:350px;
+    width: 1fr;
+    background-image: url("rcb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.like{
+    background-color: #1485bd;
+    border-radius: 100%;
+    border: none;
+   
+}
+.celebrate{
+    background-color: #bba9d1;
+    border-radius: 100%;
+    border: none;
+   
+}
+.clap{  
+    background-color:#6dae4f;
+    border-radius: 100%;
+   margin-right: 20px;
+}
+.main3{
+    display: flex;
+    justify-content: space-around;
+    width: 52vw;
+}

@@ -1,0 +1,25 @@
+.topright{
+    grid-area: topright;
+    background-color: white;
+    border-radius: 10px;
+    border:solid #666666 1px;
+    margin-right:50px;
+    /* height: 400px; */
+    margin-top:20px ;
+    padding: 10px;
+    box-sizing: border-box;
+    /* height: 300px; */
+}
+.right1{
+    display: flex;
+}
+.right1 h3{
+    margin-right: 100px;
+}
+.newslist{
+    padding: 20px;
+}
+ .para{
+    color: #666666;
+}
+

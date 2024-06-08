@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.topmain{
+    grid-area: topmain;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+    height: 150px;
+    
+}
+.main2{
+    
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.mainprofileimage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.startpostbox{
+    height: 50px;
+    width: 560px;
+    border-radius: 50px;
+    padding-left:20px ;
+
+}
+.main1{
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    
+}
+/* .topmain */

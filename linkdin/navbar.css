@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f4f2ee;
+}
+.navbar{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+.searchbox{
+    height: 40px;
+    width: 350px;
+    background-color:#edf3f8;
+    /* background: transparent; */
+    border: none;
+    position: absolute;
+    top: 16px; 
+    padding: 10px; 
+}
+.iconname :hover{
+    cursor: pointer;
+    color: black;
+}
+.rightnav a{
+    text-decoration: none;
+    color: grey;
+}
+
+svg{
+    
+    margin: auto;
+   
+}
+svg a :hover{
+    background-color: black;
+    /* fill: black; */
+}
+.iconname{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    font-size: 15px
+   
+}
+.rightnav{
+   
+    position:relative;
+    left: 100px;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    width: 60vw;
+    align-items: center;
+    color: #666666;
+    
+}
+
+.linkdinlogo{
+    /* margin-left:5px;
+    margin-top: 5px; */
+    height: 40px;
+    position: relative;
+    margin: 16px;
+     
+}
+
+
+.leftnav{
+    height: 50px;
+    width: 20vw;
+    margin-left: 50px;
+}
+.rightnav2{
+    display: flex;
+    padding-right:30px;
+   
+
+    /* width: 10wh; */
+}
+.img{
+    height: 50px;
+    width: 50px;
+    background-image: url("image.png");
+    background-size: cover;
+    border-radius: 50%;
+    margin: 2px 3px 1px 3px;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    /* font-size: 15px; */
+    
+}

@@ -1,0 +1,113 @@
+.body{
+    display:grid;
+    grid-template-areas: 
+        'topleft topmain topright'
+        'topleft midmain topright'
+        'bottomleft midmain midright'
+        'bottom1left midmain midright'
+        'bottom1left midmain bottomright'
+        'bottom1left bottommain bottomright';
+      
+        height: 100vh;
+        grid-template-columns: 1fr 3fr 1fr;
+        /* line-height: 20px; */
+        /* grid-template-rows: 2fr 4fr; */
+       
+
+}
+.topleft{
+    margin-top:20px ;
+    grid-area: topleft;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border:solid #666666 1px;
+    margin-left:50px;
+   
+}
+
+
+.bottom1left{
+    grid-area: bottommain;
+    background-color: rgb(0, 55, 255);
+}
+
+.topsection{
+    height: 70px;
+    width: 1fx;
+    background-image: url("back.jpg");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    /* align-content: center; */
+    justify-content:center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+}
+.imgage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid black 2px;
+    /* align-content: center;
+    justify-content: center;
+    position: absolute; */
+}
+.leftusername{
+    text-align: center;
+}
+.leftpara{
+    margin: 17px;
+    font-size: 15px;
+    color: #666666;
+}
+.leftsidediv1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.leftsidepara1{
+    color: #666666;
+}
+.leftsidepara2{
+    color:#0000ff;
+    font-size: 20px;
+}
+.left{
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leftsideanchor{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.leftsideanchor :hover{
+    color: #0000ff;
+    padding: 5px;
+
+}
+.leftsidediv2{
+    padding: 5px;
+    font-size: 14px;
+}
+.leftsidediv3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.leftsidepara3{
+    margin-left: 10px;
+    font-size: 15px;
+}
